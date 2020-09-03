@@ -63,7 +63,7 @@ function checkanswer(currentLevel) {
 function startOver() {
   level = 0;
   gamePattern = [];
-  userClickedPattern = []
+  userClickedPattern = [];
 }
 
 function nextSequence() {
