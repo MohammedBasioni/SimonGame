@@ -4,7 +4,9 @@ var buttonColours = ["red", "blue", "green", "yellow"];
 var level = 0;
 
 
-
+if (level === 15) {
+ alert("ياخي بالله عليك مزهقتش!! أنت وصلت لليفل 15 كفاية كدا."); 
+}
 
 
 
