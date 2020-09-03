@@ -15,6 +15,13 @@ $(".btn").on("click", function(event) {
   playSound(userChosenColour);
   animatePress(userChosenColour);
 });
+$(document).click(function () {
+  if (level === 0){
+    level++;
+    nextSequence();
+  }
+
+})
 
 $(document).keypress(function () {
   if (level === 0){
@@ -39,7 +46,7 @@ function checkanswer(currentLevel) {
     setTimeout(function(){
               $("body").removeClass("game-over");
       }, 200);
-      $("h1").text("Game Over, Press Any Key to Restart");
+      $("h1").text("Game Over, Press Any Key or click anywhere to Restart");
       startOver();
   }
 }
