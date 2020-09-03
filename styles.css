@@ -21,6 +21,21 @@ footer {
 
 }
 
+.start {
+  font-family: 'Press Start 2P', cursive;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  background: white;
+  color: black;
+
+}
+.start:hover {
+
+  background: black;
+  color: white;
+}
+
 .btn {
   margin: 25px;
   display: inline-block;
