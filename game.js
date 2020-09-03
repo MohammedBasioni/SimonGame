@@ -57,6 +57,7 @@ function checkanswer(currentLevel) {
       }, 200);
       $("h1").text("Game Over, Press any key or press 'start game' to Restart");
       startOver();
+    setTimeout(function(){},2000);
   }
 }
 
